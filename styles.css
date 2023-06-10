@@ -1,0 +1,70 @@
+h1{
+  text-align: center;
+}
+p.math{
+  font-size: 25px;
+  margin: 0;
+  text-align: center;
+  font-weight: 500;
+}
+p.note{
+  word-spacing: 2px;
+  font-weight: bold;
+  font-size: 20px;
+}
+input{
+  margin-left: 30px;
+  font-size: 20px;
+  width: 100px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: black;
+  border-style: solid;
+}
+input:hover{
+  background-color: rgb(196, 206, 214);
+  border-color: red;
+}
+div{
+  margin: auto;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+button{
+  background-color: white;
+  font-size: 15px;
+  border-style: solid;
+  border-radius: 15px;
+  padding: 10px;
+  transition: background-color 0.2s,color 0.2s;
+}
+button:hover{
+  background-color: rgb(224, 207, 207);
+  color: rgb(19, 7, 7);
+}
+button:active{
+  background-color: black;
+  color: white;
+}
+
+.cont{
+  display: block;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: auto;
+  overflow: auto;
+}
+
+.tel{
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 18px;
+}
